@@ -1,0 +1,57 @@
+.social-container{
+    display: flex;
+    gap: 18px;
+}
+
+.social-container a{
+    background-color: #B00000;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.089);
+}
+
+.social-container a svg{
+    height: 18px;
+    fill: #ffffff;
+}
+
+.social-container a:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.322)   
+}
+
+.BTwhite{
+    color: white;
+}
+
+.BTwhite:hover{
+    color: white;
+}
+
+.BTbrown{
+    color: #B00000;
+}
+.BTbrown:hover{
+    color: #B00000;
+}
+
+.BTblack{
+    color: black;
+}
+
+.BTblack:hover{
+    color: black;
+}
+
+.mainC{
+    top: 100px;
+}
+
+input::placeholder {
+  color: grey;
+  opacity: 1; /* Ensures color displays correctly in all browsers */
+}
