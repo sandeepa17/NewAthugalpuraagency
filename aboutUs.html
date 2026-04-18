@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About US | New Athugalpura Agencies</title>
+<link rel="stylesheet" href="src/bootstrap.css">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="src/LOGO.png">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600&amp;family=Inter:wght@400;500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "secondary-container": "#fed65b",
+                        "surface-container-highest": "#e7e2d8",
+                        "on-tertiary-fixed-variant": "#0034bf",
+                        "on-surface-variant": "#5d3f3b",
+                        "on-secondary-fixed": "#241a00",
+                        "primary-fixed-dim": "#ffb4a8",
+                        "on-secondary-container": "#745c00",
+                        "on-tertiary-container": "#d1d7ff",
+                        "on-primary-fixed": "#410000",
+                        "tertiary-fixed": "#dde1ff",
+                        "on-tertiary": "#ffffff",
+                        "surface-tint": "#c00000",
+                        "on-primary-fixed-variant": "#930000",
+                        "inverse-on-surface": "#f6f0e6",
+                        "primary-container": "#c10000",
+                        "primary-fixed": "#ffdad4",
+                        "surface-dim": "#dfd9d0",
+                        "surface-container-high": "#ede7de",
+                        "secondary-fixed-dim": "#e9c349",
+                        "surface-container": "#f3ede3",
+                        "outline-variant": "#e7bdb6",
+                        "inverse-surface": "#32302a",
+                        "on-surface": "#1d1b16",
+                        "on-secondary-fixed-variant": "#574500",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#1d1b16",
+                        "error": "#ba1a1a",
+                        "on-primary": "#ffffff",
+                        "tertiary-fixed-dim": "#b9c3ff",
+                        "on-primary-container": "#ffcec6",
+                        "surface-container-low": "#f9f3e9",
+                        "primary": "#940000",
+                        "tertiary": "#0035c0",
+                        "error-container": "#ffdad6",
+                        "background": "#fff9ef",
+                        "tertiary-container": "#0047f9",
+                        "on-error": "#ffffff",
+                        "secondary": "#735c00",
+                        "surface-variant": "#e7e2d8",
+                        "surface-bright": "#fff9ef",
+                        "secondary-fixed": "#ffe088",
+                        "on-tertiary-fixed": "#001356",
+                        "on-error-container": "#93000a",
+                        "surface": "#fff9ef",
+                        "inverse-primary": "#ffb4a8",
+                        "outline": "#926f69",
+                        "surface-container-lowest": "#ffffff"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope"],
+                        "body": ["Be Vietnam Pro"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(148,0,0,0.9) 0%, rgba(193,0,0,0.7) 100%);
+        }
+        .glass-nav {
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background-color: #FFF9EF;
+            color: #1D1B16;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface">
+<!-- TopNavBar (Desktop) -->
+<header class="fixed top-0 left-0 right-0 z-40 bg-[#fff9ef5b] dark:bg-stone-900/80 backdrop-blur-md shadow-[0_20px_40px_rgba(29,27,22,0.06)] hidden md:block">
+<div class="max-w-7xl mx-auto flex justify-between items-center w-full px-8 py-3">
+<div class="flex items-center gap-3">
+<img alt="Company Logo" class="h-12 w-12 object-contain" data-alt="Minimalist geometric logo for New Athugalpura Agencies in deep red and white, professional recruitment aesthetic" src="src/LOGO.png"/>
+<span class="text-xl font-bold text-[#1D1B16] dark:text-stone-100 font-headline tracking-tight"><span style="color: red;">New</span> Athugalpura Agencies</span>
+</div>
+<nav class="flex items-center gap-8">
+<a style="font-size:18px;" class="text-[#1D1B16] dark:text-stone-300 opacity-80 hover:text-[#C10000] hover:underline decoration-[#D4AF37] decoration-2 underline-offset-4 transition-all duration-300 text-sm font-headline font-bold" href="index.html"><p>Home</p></a>
+<a style="font-size:18px;" class="text-[#C10000] border-b-2 border-[#C10000] pb-1 font-headline font-bold tracking-tight text-sm BTbrown" href="aboutUs.html">About Us</a>
+<a style="font-size:18px;" class="text-[#1D1B16] dark:text-stone-300 opacity-80 hover:text-[#C10000] hover:underline decoration-[#D4AF37] decoration-2 underline-offset-4 transition-all duration-300 text-sm font-headline font-bold" href="Countries.html">Countries</a>
+<a style="font-size:18px;" class="text-[#1D1B16] dark:text-stone-300 opacity-80 hover:text-[#C10000] hover:underline decoration-[#D4AF37] decoration-2 underline-offset-4 transition-all duration-300 text-sm font-headline font-bold" href="OurServices.html">Our Services</a>
+<a style="font-size:18px;" class="text-[#1D1B16] dark:text-stone-300 opacity-80 hover:text-[#C10000] hover:underline decoration-[#D4AF37] decoration-2 underline-offset-4 transition-all duration-300 text-sm font-headline font-bold" href="Q&A.html">FAQ</a>
+<a style="font-size:18px;" class="text-[#1D1B16] dark:text-stone-300 opacity-80 hover:text-[#C10000] hover:underline decoration-[#D4AF37] decoration-2 underline-offset-4 transition-all duration-300 text-sm font-headline font-bold" href="contact.htm">Contact</a>
+</nav>
+<a href="application.html">
+<button class="bg-primary-container text-on-primary px-6 py-2.5 rounded-lg font-headline font-bold text-sm transition-all duration-300 active:scale-95 shadow-md">
+                Apply Now
+            </button>
+            </a>
+</div>
+</header>
+<!-- Mobile Header with Hamburger -->
+<header class="fixed top-0 left-0 right-0 z-40 bg-[#FFF9EF] flex md:hidden justify-between items-center px-6 py-3 border-b border-[#E7E2D8]">
+<div class="flex items-center gap-2">
+<img alt="Company Logo" class="h-8 w-8" data-alt="Small agency icon logo for mobile header" src="src/LOGO.png"/>
+<span class="font-headline font-bold text-lg text-[#1D1B16]"><span style="color: red;">New </span>Athugalpura Agencies</span>
+</div>
+<button class="p-2 text-primary" onclick="document.getElementById('mobile-menu').classList.remove('-translate-x-full')">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</header>
+<!-- SideNavBar (Mobile Pop-up) -->
+<div class="fixed inset-0 z-50 transform -translate-x-full transition-transform duration-300 md:hidden" id="mobile-menu">
+<div class="absolute inset-0 bg-on-surface/20 backdrop-blur-sm" onclick="document.getElementById('mobile-menu').classList.add('-translate-x-full')"></div>
+<aside class="relative h-full w-80 bg-[#FFF9EF] flex flex-col p-6 space-y-4 shadow-2xl">
+<div class="flex justify-between items-center mb-4">
+<div>
+<h2 class="text-lg font-bold text-[#1D1B16] font-headline"><span style="color: red;">New </span> Athugalpura Agencies</h2>
+<p class="text-xs text-on-surface-variant font-label">Building Your Future Abroad</p>
+</div>
+<button class="p-2" onclick="document.getElementById('mobile-menu').classList.add('-translate-x-full')">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<nav class="flex flex-col gap-2">
+<a class="flex items-center gap-4 p-4 text-[#1D1B16] hover:bg-[#E7E2D8] transition-colors rounded-lg font-headline font-semibold BTbrown" href="index.html">
+<span class="material-symbols-outlined">home</span> Home
+                </a>
+<a class="flex items-center gap-4 p-4 bg-[#F9F3E9] text-[#C10000] rounded-lg font-headline font-semibold BTblack" href="aboutUs.html">
+<span class="material-symbols-outlined">info</span> About Us
+                </a>
+<a class="flex items-center gap-4 p-4 text-[#1D1B16] hover:bg-[#E7E2D8] transition-colors rounded-lg font-headline font-semibold BTbrown" href="Countries.html">
+<span class="material-symbols-outlined">public</span> Countries
+                </a>
+<a class="flex items-center gap-4 p-4 text-[#1D1B16] hover:bg-[#E7E2D8] transition-colors rounded-lg font-headline font-semibold BTbrown" href="OurServices.html">
+<span class="material-symbols-outlined">work</span> Our Services
+                </a>
+<a class="flex items-center gap-4 p-4 text-[#1D1B16] hover:bg-[#E7E2D8] transition-colors rounded-lg font-headline font-semibold BTbrown" href="Q&A.html">
+<span class="material-symbols-outlined">help</span> FAQ
+                </a>
+<a class="flex items-center gap-4 p-4 text-[#1D1B16] hover:bg-[#E7E2D8] transition-colors rounded-lg font-headline font-semibold BTbrown" href="contact.htm">
+<span class="material-symbols-outlined">mail</span> Contact
+                </a>
+</nav>
+<div class="mt-auto">
+<a href="application.html">
+<button class="w-full bg-[#940000] text-white py-4 rounded-lg font-headline font-bold uppercase tracking-widest text-xs">
+                    Apply Now
+                </button>
+</a>
+
+</div>
+</aside>
+</div>
+
+<div class="max-w-7xl mx-auto px-8 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7">
+<div class="flex flex-wrap gap-12">
+<div>
+<p class="text-4xl font-headline font-extrabold text-primary mb-1">.</p>
+<p class="text-sm font-label text-on-surface-variant uppercase tracking-wider">.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<main>
+<!-- Hero Section: The Global Attaché Aesthetic -->
+<section class="relative pt-20 pb-32 overflow-hidden bg-surface">
+<div class="max-w-7xl mx-auto px-8 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7">
+<span class="inline-block px-4 py-1.5 mb-6 rounded-full bg-secondary-fixed text-on-secondary-fixed text-xs font-label font-semibold tracking-widest uppercase">Our Heritage</span>
+<h1 class="text-5xl lg:text-7xl font-headline font-bold text-on-surface leading-[1.1] tracking-tight mb-8">
+                            A Legacy of <br/>
+<span class="text-primary italic font-medium">Global Mobility</span>
+</h1>
+<p class="text-lg lg:text-xl text-on-surface-variant max-w-xl leading-relaxed mb-10">
+                            Since our inception, New Athugalpura Agencies has served as a bridge between untapped talent and global opportunity. We don't just fill positions; we craft career trajectories across borders.
+                        </p>
+<div class="flex flex-wrap gap-12">
+<div>
+<p class="text-4xl font-headline font-extrabold text-primary mb-1">09+</p>
+<p class="text-sm font-label text-on-surface-variant uppercase tracking-wider">Countries Active</p>
+</div>
+<div>
+<p class="text-4xl font-headline font-extrabold text-primary mb-1">25k+</p>
+<p class="text-sm font-label text-on-surface-variant uppercase tracking-wider">Careers Launched</p>
+</div>
+<div>
+<p class="text-4xl font-headline font-extrabold text-primary mb-1">16y+</p>
+<p class="text-sm font-label text-on-surface-variant uppercase tracking-wider">Market Authority</p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl relative z-10">
+<img alt="Corporate Headquarters" class="w-full h-full object-cover" data-alt="Grand corporate lobby with expansive glass windows and modern architectural lines representing professional stability and global vision" src="src/Building.jpg"/>
+</div>
+<!-- Asymmetric Decorative Element -->
+<div class="absolute -bottom-10 -left-10 w-48 h-48 bg-secondary-container rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
+<div class="absolute top-20 -right-10 w-64 h-64 bg-primary-fixed rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Mission & Vision: Tonal Layering -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Mission -->
+<div class="bg-surface-container-lowest p-10 lg:p-16 rounded-2xl relative overflow-hidden group border border-outline-variant/10">
+<div class="relative z-10">
+<div class="w-14 h-14 bg-primary-fixed flex items-center justify-center rounded-xl mb-8">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="flag">flag</span>
+</div>
+<h3 class="text-3xl font-headline font-bold mb-6">Our Mission</h3>
+<p class="text-on-surface-variant leading-relaxed text-lg">
+                                To connect the right talent with the right opportunity, ensuring every Sri Lankan worker experiences a safe, transparent, and professional journey wherever they work.
+</div>
+<div class="absolute top-0 right-0 p-8 opacity-5 text-8xl font-black font-headline">01</div>
+</div>
+<!-- Vision -->
+<div class="bg-primary-container p-10 lg:p-16 rounded-2xl relative overflow-hidden group shadow-xl">
+<div class="relative z-10">
+<div class="w-14 h-14 bg-white/20 flex items-center justify-center rounded-xl mb-8">
+<span class="material-symbols-outlined text-white text-3xl" data-icon="visibility" style="font-variation-settings: 'FILL' 1;">visibility</span>
+</div>
+<h3 class="text-3xl font-headline font-bold mb-6 text-white">Our Vision</h3>
+<p class="text-primary-fixed leading-relaxed text-lg">
+                                 To be the leading manpower agency, empowering Sri Lankan workers to thrive in rewarding opportunities, both locally and internationally, through trust, professionalism, and care.
+                            </p>
+</div>
+<div class="absolute top-0 right-0 p-8 opacity-10 text-8xl font-black font-headline text-white">02</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Director's Message: Editorial Layout -->
+<section class="py-32 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col lg:flex-row gap-20 items-center">
+<div class="w-full lg:w-1/2">
+<div class="relative">
+<div class="aspect-[3/4] bg-surface-container rounded-xl overflow-hidden relative z-10 border-[12px] border-white shadow-xl">
+<img alt="Managing Director" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="Professional portrait of a confident executive in a tailored navy suit against a soft-focus modern office background" src="src/Director.jpeg"/>
+</div>
+<div class="absolute -top-6 -right-6 w-32 h-32 bg-secondary-fixed rounded-full -z-10"></div>
+</div>
+</div>
+<div class="w-full lg:w-1/2">
+<span class="text-primary font-label font-bold tracking-widest uppercase text-sm mb-4 block">Leadership Note</span>
+<h2 class="text-4xl font-headline font-bold mb-8 leading-tight">"Integrity is the bedrock of global mobility."</h2>
+<div class="space-y-6 text-on-surface-variant text-lg leading-relaxed">
+<p>
+                                At New Athugalpura Agencies, we understand that every visa application represents a dream, a family, and a future. Our role is not merely administrative; it is custodial. We protect the aspirations of our candidates while delivering the precision required by our international partners.
+                            </p>
+<p>
+                                For over a decade, we have navigated the complexities of international labor laws and migration trends to ensure that our service remains the gold standard in Sri Lanka.
+                            </p>
+</div>
+<div class="mt-12">
+<p class="text-xl font-headline font-bold text-on-surface">Ravi Munasingha</p>
+<p class="text-sm font-label text-secondary uppercase tracking-widest mt-1">Managing Director &amp; Founder</p>
+<div class="mt-6 flex space-x-4">
+<span class="w-12 h-[2px] bg-primary-fixed-dim self-center"></span>
+<span class="font-label italic text-on-surface-variant">Established 2010</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Our Values Section -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-16">
+<span class="text-primary font-label font-bold tracking-widest uppercase text-sm mb-4 block">Core Principles</span>
+<h2 class="text-4xl font-headline font-bold mb-4">Values that Drive Us</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">Our commitment to excellence is rooted in these fundamental beliefs.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/10 shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center rounded-xl mb-6">
+<span class="material-symbols-outlined text-2xl">verified_user</span>
+</div>
+<h4 class="text-xl font-headline font-bold mb-3">Integrity</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Honesty and ethical conduct are at the heart of everything we do, ensuring trust with every candidate.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/10 shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center rounded-xl mb-6">
+<span class="material-symbols-outlined text-2xl">visibility</span>
+</div>
+<h4 class="text-xl font-headline font-bold mb-3">Transparency</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Clear communication and open processes throughout the entire recruitment and visa journey.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/10 shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center rounded-xl mb-6">
+<span class="material-symbols-outlined text-2xl">workspace_premium</span>
+</div>
+<h4 class="text-xl font-headline font-bold mb-3">Excellence</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Striving for the highest quality in service delivery, exceeding expectations of global partners.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Skilled Staff Section -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-16">
+<span class="text-primary font-label font-bold tracking-widest uppercase text-sm mb-4 block">Meet the Team</span>
+<h2 class="text-4xl font-headline font-bold mb-4">Our Skilled Experts</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">The dedicated professionals behind our successful placements.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Team Member 1 -->
+<div class="group">
+<div class="aspect-[4/5] rounded-2xl overflow-hidden mb-4 relative">
+<img alt="Team Member" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="src/sadaruwan.jpeg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<h4 class="text-lg font-headline font-bold">Mr. M.M. Sandaruwan</h4>
+<p class="text-secondary font-label text-xs uppercase tracking-widest font-semibold">Business Promotion Manager</p>
+</div>
+<!-- Team Member 2 -->
+<div class="group">
+<div class="aspect-[4/5] rounded-2xl overflow-hidden mb-4 relative">
+<img alt="Team Member" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="src/Demien.png"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<h4 class="text-lg font-headline font-bold">Mr. Damien Perera </h4>
+<p class="text-secondary font-label text-xs uppercase tracking-widest font-semibold">Consultant (Dubai & Qatar )</p>
+</div>
+<!-- Team Member 3 -->
+<div class="group">
+<div class="aspect-[4/5] rounded-2xl overflow-hidden mb-4 relative">
+<img alt="Team Member" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="src/khanth.png"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<h4 class="text-lg font-headline font-bold">Mr. S.S. Rajini Kanth</h4>
+<p class="text-secondary font-label text-xs uppercase tracking-widest font-semibold"> Dubai Recruting Manager</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Awards & Achievements Section -->
+<section class="py-24 bg-surface-container">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-16">
+<span class="text-primary font-label font-bold tracking-widest uppercase text-sm mb-4 block">Milestones</span>
+<h2 class="text-4xl font-headline font-bold mb-4">Awards &amp; Achievements</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">Celebrating a decade of excellence and industry recognition.</p>
+</div>
+<div class="relative">
+<!-- Timeline-style layout -->
+<div class="hidden lg:block absolute left-1/2 top-0 bottom-0 w-px bg-outline-variant/30 transform -translate-x-1/2"></div>
+<div class="space-y-12">
+<!-- Award 1 -->
+<div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-0">
+<div class="lg:w-1/2 lg:pr-12 text-center lg:text-right">
+<div class="text-secondary font-headline font-bold text-xl mb-1">2023</div>
+<h4 class="text-2xl font-headline font-bold mb-2">SLBFE Excellence Award</h4>
+<p class="text-on-surface-variant">Recognized as the most transparent recruitment agency by the Sri Lanka Bureau of Foreign Employment.</p>
+</div>
+<div class="relative z-10 w-12 h-12 bg-primary-container text-white rounded-full flex items-center justify-center shadow-lg outline outline-8 outline-surface">
+<span class="material-symbols-outlined">emoji_events</span>
+</div>
+<div class="lg:w-1/2 lg:pl-12"></div>
+</div>
+<!-- Award 2 -->
+<div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-0">
+<div class="lg:w-1/2 lg:pr-12"></div>
+<div class="relative z-10 w-12 h-12 bg-secondary-container text-on-secondary-container rounded-full flex items-center justify-center shadow-lg outline outline-8 outline-surface">
+<span class="material-symbols-outlined">star</span>
+</div>
+<div class="lg:w-1/2 lg:pl-12 text-center lg:text-left">
+<div class="text-secondary font-headline font-bold text-xl mb-1">2021</div>
+<h4 class="text-2xl font-headline font-bold mb-2">10-Year Service Gold Medal</h4>
+<p class="text-on-surface-variant">Commemorating a decade of consistent, high-standard service in the international manpower industry.</p>
+</div>
+</div>
+<!-- Award 3 -->
+<div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-0">
+<div class="lg:w-1/2 lg:pr-12 text-center lg:text-right">
+<div class="text-secondary font-headline font-bold text-xl mb-1">2018</div>
+<h4 class="text-2xl font-headline font-bold mb-2">Top Middle East Recruiter</h4>
+<p class="text-on-surface-variant">Achieved the highest placement volume for skilled categories in the GCC region.</p>
+</div>
+<div class="relative z-10 w-12 h-12 bg-primary-container text-white rounded-full flex items-center justify-center shadow-lg outline outline-8 outline-surface">
+<span class="material-symbols-outlined">military_tech</span>
+</div>
+<div class="lg:w-1/2 lg:pl-12"></div>
+</div>
+</div>
+</div>
+<!-- New Featured Awards Sub-section -->
+<div class="mt-24 pt-16 border-t border-outline-variant/20">
+<div class="text-center mb-12">
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-2">Prestigious Industry Accolades</h3>
+<p class="text-on-surface-variant text-sm font-label uppercase tracking-widest">Global Recognition Portfolio</p>
+</div>
+<div class="max-w-4xl mx-auto">
+<div class="bg-surface-container-lowest p-8 rounded-2xl shadow-inner border border-outline-variant/10">
+<img alt="Collection of Featured Awards" class="w-full h-auto object-contain mx-auto" src="src/Awards.jpg"/>
+<div class="grid grid-cols-3 gap-4 mt-8 text-center">
+<div class="px-4">
+<p class="text-xs font-label font-bold text-primary uppercase tracking-tighter">Excellence Award 2014</p>
+<p class="text-[0.65rem] text-on-surface-variant leading-tight mt-1">Exploring the Best to Reward Excellence</p>
+</div>
+<div class="px-4">
+<p class="text-xs font-label font-bold text-primary uppercase tracking-tighter">Golden Award 2022</p>
+<p class="text-[0.65rem] text-on-surface-variant leading-tight mt-1">Sri Lanka Bureau of Foreign Employment</p>
+</div>
+<div class="px-4">
+<p class="text-xs font-label font-bold text-primary uppercase tracking-tighter">Massco 2016 Gold</p>
+<p class="text-[0.65rem] text-on-surface-variant leading-tight mt-1">Sri Lanka Masco awards ceremony</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Professional Services Grid: Bento Style -->
+<section class="py-24 bg-surface-container">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-headline font-bold mb-4">Our Service Ecosystem</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">Providing end-to-end solutions that exceed traditional recruitment expectations.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Large Feature Card -->
+<div class="md:col-span-2 bg-surface-container-lowest p-8 rounded-2xl flex flex-col justify-between group">
+<div class="flex justify-between items-start mb-12">
+<div class="p-4 bg-primary-fixed rounded-xl text-primary">
+<span class="material-symbols-outlined text-3xl" data-icon="travel_explore">travel_explore</span>
+</div>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity text-primary" data-icon="north_east">north_east</span>
+</div>
+<div>
+<h4 class="text-2xl font-headline font-bold mb-4">End-to-End Visa Facilitation</h4>
+<p class="text-on-surface-variant mb-6">Navigating the bureaucratic complexities of 11+ jurisdictions with zero margin for error. We handle the paperwork, so you can focus on the journey.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-surface-container text-on-surface-variant text-xs font-label rounded-full">Documentation</span>
+<span class="px-3 py-1 bg-surface-container text-on-surface-variant text-xs font-label rounded-full">Embassy Relations</span>
+<span class="px-3 py-1 bg-surface-container text-on-surface-variant text-xs font-label rounded-full">Medical Coordination</span>
+</div>
+</div>
+</div>
+<!-- Small Feature Card 1 -->
+<div class="bg-primary-container p-8 rounded-2xl text-on-primary flex flex-col justify-between">
+<div class="p-4 bg-white/10 w-fit rounded-xl mb-8">
+<span class="material-symbols-outlined text-3xl" data-icon="school">school</span>
+</div>
+<div>
+<h4 class="text-xl font-headline font-bold mb-3">Pre-Departure Training</h4>
+<p class="text-on-primary-container text-sm leading-relaxed">Cultural orientation and basic language proficiency modules for smooth global integration.</p>
+</div>
+</div>
+<!-- Small Feature Card 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/10 flex flex-col justify-between group">
+<div class="p-4 bg-secondary-fixed w-fit rounded-xl mb-8 text-on-secondary-fixed">
+<span class="material-symbols-outlined text-3xl" data-icon="handshake">handshake</span>
+</div>
+<div>
+<h4 class="text-xl font-headline font-bold mb-3">Employer Matching</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Proprietary vetting process to match candidate skills with prestigious international firms.</p>
+</div>
+</div>
+<!-- Medium Feature Card -->
+<div class="md:col-span-2 bg-surface-container-lowest p-8 rounded-2xl flex flex-col md:flex-row gap-8 items-center border border-outline-variant/10">
+<div class="w-full md:w-1/3 aspect-video md:aspect-square rounded-xl overflow-hidden">
+<img alt="Consultation" class="w-full h-full object-cover" data-alt="Overhead view of two professionals reviewing documents on a clean white desk, minimalist and focused corporate atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-U2SLX02hUNNvgVq7HX4GQx-m2TKoQ6Vj5mPu-Le5JfoLoGfkYmLCZ5XMUp90bdaMSn-HQHKggGUK3bYaY5GkZq-8TTy32T-CDYR_J6_pFEil-iDUp4CF4ElHbpLib1vd-bdPQA_4bTbwG6MBbZcts5RCXPBywmI2xiYRz8yhX2Fy7btyVbaPyWugG7wv_nSbA59fVs0oA6u9GrwbxIuYwLzpGpfDWN1_SW4VvCRjocPF4t6cjLGbYym-1rFbnGZ4lnKVoJeu6zA"/>
+</div>
+<div class="w-full md:w-2/3">
+<h4 class="text-xl font-headline font-bold mb-3">Post-Placement Support</h4>
+<p class="text-on-surface-variant text-sm mb-4 leading-relaxed">Our commitment doesn't end at the gate. We provide ongoing support for candidates during their first 90 days abroad.</p>
+<a class="text-primary font-headline font-bold text-sm inline-flex items-center group" href="#">
+                                Learn More 
+                                <span class="material-symbols-outlined ml-2 text-sm transition-transform group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#F9F3E9] dark:bg-[#1D1B16] w-full">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-20 max-w-7xl mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2">
+<img alt="Company Logo" class="h-12 w-12" data-alt="Small footer agency logo icon" src="src/LOGO.png"/>
+<span class="text-[#1D1B16] font-bold font-headline text-lg"><span style="color: red;">New</span> Athugalpura Agencies</span>
+</div>
+<p class="text-[#1D1B16]/70 dark:text-[#FFF9EF]/70 font-body text-sm leading-relaxed mb-6">
+                    Professional overseas recruitment and consultancy services with a focus on trust and excellence.
+                </p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-[#C10000]">social_leaderboard</span>
+<span class="material-symbols-outlined text-[#C10000]">work</span>
+<span class="material-symbols-outlined text-[#C10000]">location_on</span>
+</div>
+</div>
+<div class="col-span-1">
+<h4 class="font-headline font-bold text-on-surface mb-6 uppercase tracking-wider text-xs">Quick Links</h4>
+<ul class="space-y-4">
+<li><a class="font-body text-sm text-[#1D1B16]/70 dark:text-[#FFF9EF]/70 hover:text-[#C10000] hover:underline underline-offset-4 transition-all" href="index.html">Home</a></li>
+<li><a class="font-body text-sm text-[#1D1B16]/70 dark:text-[#FFF9EF]/70 hover:text-[#C10000] hover:underline underline-offset-4 transition-all" href="aboutUs.html">About Us</a></li>
+<li><a class="font-body text-sm text-[#1D1B16]/70 dark:text-[#FFF9EF]/70 hover:text-[#C10000] hover:underline underline-offset-4 transition-all" href="OurServices.html">Our Services</a></li>
+<li><a class="font-body text-sm text-[#1D1B16]/70 dark:text-[#FFF9EF]/70 hover:text-[#C10000] hover:underline underline-offset-4 transition-all" href="Countries.html">Countries</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<h4 class="font-headline font-bold text-on-surface mb-6 uppercase tracking-wider text-xs">Support</h4>
+<ul class="space-y-4">
+<li><a class="font-body text-sm text-[#1D1B16]/70 dark:text-[#FFF9EF]/70 hover:text-[#C10000] hover:underline underline-offset-4 transition-all" href="Q&A.html">FAQ</a></li>
+<li><a class="font-body text-sm text-[#1D1B16]/70 dark:text-[#FFF9EF]/70 hover:text-[#C10000] hover:underline underline-offset-4 transition-all" href="contact.htm">Contact</a></li>
+<li><a class="font-body text-sm text-[#1D1B16]/70 dark:text-[#FFF9EF]/70 hover:text-[#C10000] hover:underline underline-offset-4 transition-all" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Terms of Service</a></li>
+<li><a class="font-body text-sm text-[#1D1B16]/70 dark:text-[#FFF9EF]/70 hover:text-[#C10000] hover:underline underline-offset-4 transition-all" href="privacyPolicy.html">Privacy Policy</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<h4 class="font-headline font-bold text-on-surface mb-6 uppercase tracking-wider text-xs">Contact Us</h4>
+<div class="space-y-4">
+<div class="flex items-start gap-3 text-sm text-on-surface-variant font-body">
+<span class="material-symbols-outlined text-primary text-lg">mail</span>
+                        infonewathugalpura@gmail.com
+                    </div>
+<div class="flex items-start gap-3 text-sm text-on-surface-variant font-body">
+<span class="material-symbols-outlined text-primary text-lg">phone</span>
+                        +94 37-223 41 98<br>
+                        +94 72-3000  300<br>
+                        +94 72-7 181 181
+                        
+                    </div>
+<div class="flex items-start gap-3 text-sm text-on-surface-variant font-body">
+<span class="material-symbols-outlined text-primary text-lg">location_city</span>
+                        No. 272/ Negombo Road,<br/>Kurunegala, Sri Lanka
+                    </div>
+<div class="flex items-start gap-3 text-sm text-on-surface-variant font-body">
+<span class="material-symbols-outlined text-primary text-lg">add_link</span>
+                        <div class="social-container">
+                            <a class="fbfooter" href="https://web.facebook.com/newathugalpura" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></a>
+                            <a class="lifooter" href="https://www.linkedin.com/company/113173368/admin/dashboard/" target="_blank"><img class="liicon" src="src/linkedin.svg" alt=""></a>
+                            <a class="utfooter" href="https://www.youtube.com/channel/UCTvu29hD5eNoQmQ-GncwTqg" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+                            <a class="ttfooter" href="https://www.tiktok.com/@newathugalpuraagency?is_from_webapp=1&sender_device=pc" target="_blank"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TikTok</title><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+                        </div>
+                    </div>                
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-8 border-t border-on-surface/5 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-xs text-[#1D1B16]/70 dark:text-[#FFF9EF]/70 font-body">© New Athugalpura Agencies (Pvt) Ltd. 2026 — All Rights Reserved | Designed & Developed by <a target="_blank" href="https://www.facebook.com/share/1EPGNfBPDD/"><b>Nexus+</b></a>
+</p>
+<div class="flex gap-6">
+<span class="text-xs text-[#1D1B16]/70 dark:text-[#FFF9EF]/70">Licence No: 2511</span>
+<span class="text-xs text-[#1D1B16]/70 dark:text-[#FFF9EF]/70">Approved by SLBFE</span>
+</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="background-color: #FFF9EF;">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div>
+            
+<!-- Modal body -->
+<div class="scroll-mt-32 p-8 md:p-12 bg-surface-container rounded-2xl relative overflow-hidden" id="responsibility">
+<div class="flex items-start gap-6 mb-6">
+<h2 class="text-3xl font-headline font-semibold text-on-surface">Terms of Service</h2>
+</div>
+<div class="md:pl-[72px]">
+<p class="text-on-surface-variant leading-relaxed text-lg mb-6">By using our website and services, you agree to follow these terms. We provide overseas job placement, visa assistance, and related services, but we do not guarantee job placement or visa approval.                            </p>
+<div class="bg-surface-container-highest/50 border-l-4 border-secondary p-6 rounded-r-xl">
+<p class="text-on-surface font-medium italic">
+            "You are responsible for providing accurate and complete information when applying. Any false or misleading details may result in rejection."
+                                </p>
+</div>
+<div class="bg-surface-container-highest/50 border-l-4 border-secondary p-6 rounded-r-xl">
+<p class="text-on-surface font-medium italic">
+            "Your personal information will be handled according to our Privacy Policy and may be shared with employers or authorities when necessary."
+                                </p>
+</div>
+<div class="bg-surface-container-highest/50 border-l-4 border-secondary p-6 rounded-r-xl">
+<p class="text-on-surface font-medium italic">
+            "We are not responsible for delays, losses, or issues caused by third parties such as employers, embassies, or visa authorities."
+                                </p>
+</div>
+<div class="bg-surface-container-highest/50 border-l-4 border-secondary p-6 rounded-r-xl">
+<p class="text-on-surface font-medium italic">
+            "We may update these terms or our services at any time without prior notice."
+                                </p>
+</div>
+</div>
+</div>
+<!-- Modal Contact -->
+
+               <div class="scroll-mt-32 bg-primary p-12 rounded-3xl text-on-primary" id="contact">
+<div class="max-w-2xl">
+<h2 class="text-3xl font-headline font-bold mb-6">Need Clarity on our Terms?</h2>
+<p class="text-on-primary-container mb-10 text-lg opacity-90">
+                                Our legal and administrative team is available to explain any clause or policy detail to ensure your peace of mind.
+                            </p>
+<div class="grid md:grid-cols-2 gap-8">
+<div class="flex items-center gap-4">
+<div class="bg-white/10 p-3 rounded-full">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<p class="text-xs uppercase tracking-widest text-primary-fixed opacity-70">Email Support</p>
+<p class="font-semibold text-lg">infonewathugalpura<br>@gmail.com</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="bg-white/10 p-3 rounded-full">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="text-xs uppercase tracking-widest text-primary-fixed opacity-70">Direct Phone</p>
+<p class="font-semibold text-lg">+94 72-3000 300</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+               
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</footer>
+</body>
+<script src="js.js"></script>
+<script src="src/bootstrap.bundle.min.js"></script>
+</html>
